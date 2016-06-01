@@ -1,0 +1,1 @@
+(function(){'use strict';alert('hi');}).call(this);
