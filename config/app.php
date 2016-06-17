@@ -157,6 +157,8 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Awjudd\AssetProcessor\AssetProcessorServiceProvider::class,
+
+        Awjudd\FeedReader\FeedReaderServiceProvider::class,
     ],
 
     /*
@@ -204,6 +206,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Asset' => Awjudd\AssetProcessor\Facade::class,
+
+        'Reader'    => Awjudd\FeedReader\Facade::class,
     ],
 
 ];

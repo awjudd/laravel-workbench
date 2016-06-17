@@ -11,6 +11,10 @@
 |
 */
 
+Route::group(['prefix' => 'rss'], function() {
+    Route::get('', 'RssFeedController@getIndex');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });

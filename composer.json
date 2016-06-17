@@ -14,7 +14,8 @@
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*",
-        "awjudd/assetprocessor": "dev-refactor"
+        "awjudd/assetprocessor": "dev-refactor",
+        "awjudd/feed-reader": "dev-simple-pie-upgrade"
     },
     "autoload": {
         "classmap": [
@@ -52,6 +53,11 @@
         {
             "type": "git",
             "url": "../l4-assetprocessor"
+        },
+        {
+            "type": "git",
+            "url": "../l4-feed-reader"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
